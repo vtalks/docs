@@ -1,6 +1,6 @@
 # vtalks.net
 
-Start reading the documentation here.
+Start reading the documentation [here](https://github.com/vtalks/docs/blob/develop/index.md).
 
 ## License
 
