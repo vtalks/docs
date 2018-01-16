@@ -9,17 +9,22 @@ You will need to have installed the following dependencies:
 
 ## Setup the environment
 
-Clone the *deploy* repository:
+Clone repositories:
 
 ```bash
+mkdir vtalks
+cd vtalks
+git clone git@github.com:vtalks/branding.git
 git clone git@github.com:vtalks/deploy.git
+git clone git@github.com:vtalks/docs.git
+git clone git@github.com:vtalks/vtalks.net.git
 ```
 
 Inside the repository you'll find an `environment.dist.sh` file. 
 Copy it to for example `environment.sh` and fill the information 
 needed on it.
 
-Once your are finish source it into your shell to have all variables
+Once you finish, source it inside your current shell to have all variables
 and aliases loaded:
 
 ```bash
