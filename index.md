@@ -5,7 +5,7 @@ Welcome to vtalks documentation!
 * [Developer environment](developer.md)
 * [Production environment](production.md)
 
-## Common recipes:
+## System cleanup:
 
 Docker cleanup, stop and remove containers and images:
 
