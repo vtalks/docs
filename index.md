@@ -2,7 +2,7 @@
 
 Welcome to vtalks documentation!
 
-* [Developer environment](developer.md)
+* [Developer environment](development.md)
 * [Production environment](production.md)
 
 ## System cleanup:
