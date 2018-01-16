@@ -4,9 +4,8 @@
 
 You will need to have installed the following dependencies:
 
-* Docker
-* Docker Compose
-* Python 3
+* Docker & Docker Compose
+* Python 3+
 
 ## Setup the environment
 
@@ -32,11 +31,17 @@ source environment.sh
 ### Database
 
 ```bash
-compose up postgres -d
+compose up -d postgres
 ```
 
 ### Web
 
 ```bash
-compose up web -d
+compose up -d web
+```
+
+### Ningx
+
+```bash
+compose -up -d nginx
 ```
