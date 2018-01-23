@@ -17,6 +17,12 @@ docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
 
+Remove all docker volumes:
+
+```bash
+docker volume prune
+```
+
 Remove all docker images with no associated container:
 
 ```bash
