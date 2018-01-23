@@ -7,9 +7,9 @@ You will need to have installed the following dependencies:
 * Docker & Docker Compose
 * Python 3+
 
-## Setup the environment
+## Get the source code
 
-Clone repositories:
+Clone the current needed repositories:
 
 ```bash
 mkdir vtalks
@@ -20,12 +20,17 @@ git clone git@github.com:vtalks/docs.git
 git clone git@github.com:vtalks/vtalks.net.git
 ```
 
-Inside the repository you'll find an `environment.dist.sh` file. 
+In this guide, if it is not specified the working directory will be the 
+`vtalks` directory created where all other repos reside.
+
+## Setup the environment
+
+Inside the `deploy` repository you'll find an `environment.dist.sh` file. 
 Copy it to for example `environment.sh` and fill the information 
 needed on it.
 
-Once you finish, source it inside your current shell to have all variables
-and aliases loaded:
+Once you finish, source it inside your current shell to have all environment 
+variables and aliases loaded:
 
 ```bash
 source environment.sh
@@ -33,10 +38,29 @@ source environment.sh
 
 ## Build containers
 
+All project is deployed using docker containers. Follow this instructions to 
+build, deploy and run them:
+
 ### Database
+
+Inside `deploy` folder repository, build and run the database container with:
 
 ```bash
 compose up -d postgres
+```
+
+###### Import and Export database data
+
+To import the database from a backup execute:
+
+```bash
+compose exec postgres /restoredb.sh
+```
+
+To export the database execute:
+
+```bash
+compose exec postgres /dumpdb.sh
 ```
 
 ### Web
