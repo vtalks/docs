@@ -49,7 +49,7 @@ Inside `deploy` folder repository, build and run the database container with:
 compose up -d postgres
 ```
 
-###### Import and Export database data
+##### Import and Export database data
 
 To import the database from a backup execute:
 
@@ -63,14 +63,55 @@ To export the database execute:
 compose exec postgres /dumpdb.sh
 ```
 
+##### Configuration & Environment variables
+
+> [ISSUE-deploy/2](https://github.com/vtalks/deploy/issues/2):
+> Environment variables to configure the database.
+
 ### Web
+
+Inside `deploy` folder repository, build the container image with:
 
 ```bash
 compose up -d web
 ```
 
+And copy static files:
+
+```bash
+manage collectstatic
+```
+
+#### Execute tests suite
+
+Inside `vtalks.net` folder repository, execute the tests suite into a  container:
+
+```bash
+make test
+```
+
+Generate coverage report and send it to coveralls.io:
+
+```bash
+make cover
+```
+
+#### Build and Publish docker image
+
+Inside `deploy` folder repository, build the container image with:
+
+```bash
+make docker-build
+```
+
+And publish the built container image with:
+
+```bash
+make docker-publish
+```
+
 ### Ningx
 
 ```bash
-compose -up -d nginx
+compose up -d nginx
 ```
