@@ -22,7 +22,7 @@ ROADMAP
 0.3.0 (unreleased)
 -----------------
 - [ ] vtalks/web : [Implement dislike talk by users](https://github.com/vtalks/vtalks.net/issues/47)
-- [ ] vtalks/web : [Implement favorite talk by users](https://github.com/vtalks/vtalks.net/issues/46)
+- [x] vtalks/web : [Implement favorite talk by users](https://github.com/vtalks/vtalks.net/issues/46)
 - [x] vtalks/web : [Update rank on talk save](https://github.com/vtalks/vtalks.net/issues/45)
 - [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 - [x] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
