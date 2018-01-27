@@ -11,21 +11,21 @@ ROADMAP
 
 0.4.0 (unreleased)
 ------------------
-- [ ] Content syndication.
-- [ ] Content syndication Twitter.
-- [ ] Content syndication Facebook.
-- [ ] Content syndication LinkedIn.
+- [ ] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
+- [ ] vtalks/twitter-worker : Content syndication Twitter.
+- [ ] vtalks/facebook-worker : Content syndication Facebook.
+- [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
 - [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
 - [ ] vtalks/docs : [Use environment variables to configure the database](https://github.com/vtalks/docs/issues/2)
 
 
 0.3.0 (unreleased)
 -----------------
-- [ ] Implement dislike talk by users.
-- [ ] Implement favorite talk by users.
-- [ ] Update rank on talk save.
-- [ ] Send email contact form with mailgun.
-- [ ] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
+- [ ] vtalks/web : [Implement dislike talk by users](https://github.com/vtalks/vtalks.net/issues/47)
+- [ ] vtalks/web : [Implement favorite talk by users](https://github.com/vtalks/vtalks.net/issues/46)
+- [ ] vtalks/web : [Update rank on talk save](https://github.com/vtalks/vtalks.net/issues/45)
+- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
+- [x] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
 - [ ] vtalks/web : [Use DEBUG=False in production](https://github.com/vtalks/vtalks.net/issues/25)
 - [ ] vtalks/web : [Support for pagination on add_playlist management command](https://github.com/vtalks/vtalks.net/issues/24)
 
