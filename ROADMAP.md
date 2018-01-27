@@ -29,20 +29,21 @@ ROADMAP
 ------------------
 - [x] Add support for coveralls.io.
     - [x] Minimum of 75% coverage.
-- [ ] Readonly API.
+- [x] Readonly API.
     - [x] List support for model Channel.
     - [x] List support for model Playlist.
     - [x] List support for model Talk.
     - [x] Details view support for model Channel.
     - [x] Details view support for model Playlist.
-    - [x] Details view support for model Talk. 
-- [ ] Read/Write API.
+    - [x] Details view support for model Talk.
+    - [x] Get Random Talk 
+- [x] Read/Write API.
     - [x] Create support for model Channel.
-    - [ ] Create support for model Playlist.
-    - [ ] Create support for model Talk.
+    - [x] Create support for model Playlist.
+    - [x] Create support for model Talk.
     - [x] Update support for model Channel.
-    - [ ] Update support for model Playlist.
-    - [ ] Update support for model Talk.
+    - [x] Update support for model Playlist.
+    - [x] Update support for model Talk.
 
 0.1.0 (2018-01-14)
 ------------------
