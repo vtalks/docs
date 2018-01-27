@@ -25,7 +25,7 @@ ROADMAP
 - [ ] *rank_videos* command to use the API.
 - [ ] *update_videos* command to use the API.
 
-0.2.0 (unreleased)
+0.2.0 (2018-01-27)
 ------------------
 - [x] Add support for coveralls.io.
     - [x] Minimum of 75% coverage.
