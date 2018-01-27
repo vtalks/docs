@@ -25,7 +25,7 @@ ROADMAP
 - [ ] vtalks/web : [Implement favorite talk by users](https://github.com/vtalks/vtalks.net/issues/46)
 - [ ] vtalks/web : [Update rank on talk save](https://github.com/vtalks/vtalks.net/issues/45)
 - [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
-- [ ] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
+- [x] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
 - [ ] vtalks/web : [Use DEBUG=False in production](https://github.com/vtalks/vtalks.net/issues/25)
 - [ ] vtalks/web : [Support for pagination on add_playlist management command](https://github.com/vtalks/vtalks.net/issues/24)
 
