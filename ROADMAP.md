@@ -12,7 +12,7 @@ ROADMAP
 0.4.0 (unreleased)
 ------------------
 - [ ] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
-- [ ] vtalks/twitter-worker : Content syndication Twitter.
+- [x] vtalks/twitter-worker : Content syndication Twitter.
 - [ ] vtalks/facebook-worker : Content syndication Facebook.
 - [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
 - [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
