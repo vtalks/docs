@@ -11,7 +11,7 @@ ROADMAP
 
 0.4.0 (unreleased)
 ------------------
-- [ ] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
+- [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
 - [x] vtalks/twitter-worker : Content syndication Twitter.
 - [ ] vtalks/facebook-worker : Content syndication Facebook.
 - [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
