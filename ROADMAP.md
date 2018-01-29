@@ -17,17 +17,16 @@ ROADMAP
 - [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
 - [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
 - [ ] vtalks/docs : [Use environment variables to configure the database](https://github.com/vtalks/docs/issues/2)
-
+- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 
 0.3.0 (unreleased)
 -----------------
 - [x] vtalks/web : [Implement dislike talk by users](https://github.com/vtalks/vtalks.net/issues/47)
 - [x] vtalks/web : [Implement favorite talk by users](https://github.com/vtalks/vtalks.net/issues/46)
 - [x] vtalks/web : [Update rank on talk save](https://github.com/vtalks/vtalks.net/issues/45)
-- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 - [x] vtalks/deploy : [Add postgres adminer image](https://github.com/vtalks/deploy/issues/1)
 - [x] vtalks/web : [Use DEBUG=False in production](https://github.com/vtalks/vtalks.net/issues/25)
-- [ ] vtalks/web : [Support for pagination on add_playlist management command](https://github.com/vtalks/vtalks.net/issues/24)
+- [x] vtalks/web : [Support for pagination on add_playlist management command](https://github.com/vtalks/vtalks.net/issues/24)
 
 
 0.2.0 (2018-01-27)
