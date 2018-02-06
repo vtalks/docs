@@ -12,9 +12,11 @@ ROADMAP
 0.4.0 (unreleased)
 ------------------
 - [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
-- [ ] vtalks/twitter-worker : [Add tags on the twitter content](https://github.com/vtalks/twitter_worker/issues/1)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_likes](https://github.com/vtalks/vtalks.net/issues/76)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_dislikes](https://github.com/vtalks/vtalks.net/issues/77)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_favorites](https://github.com/vtalks/vtalks.net/issues/78)
 - [ ] vtalks/web : [Create a sitemap.xml for vtalks.net](https://github.com/vtalks/vtalks.net/issues/58)
-
+- [ ] vtalks/twitter-worker : [Add tags on the twitter content](https://github.com/vtalks/twitter_worker/issues/1)
 
 0.3.0 (2018-01-29)
 ------------------
@@ -60,28 +62,22 @@ ROADMAP
 
 
 ## Backlog
-- [ ] vtalks/web : [Get related talks from the same event edition.](https://github.com/vtalks/vtalks.net/issues/75)
-- [ ] vtalks/web : [Get related talks from the same event event.](https://github.com/vtalks/vtalks.net/issues/74)
-- [ ] vtalks/web : [Can fontawesomeicons have an alt property for SEO?](https://github.com/vtalks/vtalks.net/issues/71)
-- [ ] vtalks/web : [Show user avatar on navbar.](https://github.com/vtalks/vtalks.net/issues/70)
-- [ ] vtalks/web : [Do we need image sitemaps?](https://github.com/vtalks/vtalks.net/issues/69)
-- [ ] vtalks/web : [SEO Tips (django-seo app)](https://github.com/vtalks/vtalks.net/issues/66)
-- [ ] vtalks/web : [Create robots.txt file](https://github.com/vtalks/vtalks.net/issues/65)
-- [ ] vtalks/web : [Compress js and css on production (django-compressor app)](https://github.com/vtalks/vtalks.net/issues/64)
-- [ ] vtalks/web : [Use django.template.loaders.cached.Loader on production](https://github.com/vtalks/vtalks.net/issues/63)
-- [ ] vtalks/web : [New linkedin url and page/company](https://github.com/vtalks/vtalks.net/issues/61)
-- [ ] vtalks/web : [Create a client test to check a random talk detailed view ( anon users )](https://github.com/vtalks/vtalks.net/issues/60)
-- [ ] vtalks/web : [Create a client test to check home ( anon users )](https://github.com/vtalks/vtalks.net/issues/59)
-- [ ] vtalks/web : [New facebook page url](https://github.com/vtalks/vtalks.net/issues/56)
-- [ ] vtalks/web : [Better template contact form](https://github.com/vtalks/vtalks.net/issues/55)
-- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 
-- [ ] vtalks/deploy : [Use environment variables to configure the database](https://github.com/vtalks/deploy/issues/2)
+The [backlog](https://github.com/issues?user=vtalks) is where all issues 
+(including bugs, questions and enhancements) can be found. 
 
-- [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
+This list is the most updated source of work todo on the project.
 
-- [ ] vtalks/facebook-worker : [Post a random talk on Facebook every 6 hours.](https://github.com/vtalks/facebook_worker/issues/1)
 
-- [ ] vtalks/linkedin-worker : [Post a random talk on LinkedIn every 6 hours.](https://github.com/vtalks/linkedin_worker/issues/1)
+## Ideas
 
-- [ ] vtalks/updater-worker : [Update a talk periodically.](https://github.com/vtalks/updater_worker/issues/1)
+This is a list of not yet planed and/or implemented ideas for vtalks.net. 
+Before start working on the following, they should be researched and a set of
+issues must be created on the backlog.
+
+The idea is finished only when all of its issues are closed.
+
+The current ideas are:
+
+- Talks should have an optional link to their slides.
+- Speaker model
