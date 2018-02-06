@@ -12,9 +12,11 @@ ROADMAP
 0.4.0 (unreleased)
 ------------------
 - [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
-- [ ] vtalks/twitter-worker : [Add tags on the twitter content](https://github.com/vtalks/twitter_worker/issues/1)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_likes](https://github.com/vtalks/vtalks.net/issues/76)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_dislikes](https://github.com/vtalks/vtalks.net/issues/77)
+- [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_favorites](https://github.com/vtalks/vtalks.net/issues/78)
 - [ ] vtalks/web : [Create a sitemap.xml for vtalks.net](https://github.com/vtalks/vtalks.net/issues/58)
-
+- [ ] vtalks/twitter-worker : [Add tags on the twitter content](https://github.com/vtalks/twitter_worker/issues/1)
 
 0.3.0 (2018-01-29)
 ------------------
