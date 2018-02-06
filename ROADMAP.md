@@ -12,12 +12,13 @@ ROADMAP
 0.4.0 (unreleased)
 ------------------
 - [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
+- [ ] vtalks/web : [Use environment variables to configure the database](https://github.com/vtalks/docs/issues/2)
+- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 - [x] vtalks/twitter-worker : Content syndication Twitter.
 - [ ] vtalks/facebook-worker : Content syndication Facebook.
 - [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
+- [ ] vtalks/updater-worker : Content syndication LinkedIn.
 - [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
-- [ ] vtalks/docs : [Use environment variables to configure the database](https://github.com/vtalks/docs/issues/2)
-- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
 
 0.3.0 (2018-01-29)
 ------------------

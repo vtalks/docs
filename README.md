@@ -2,6 +2,13 @@
 
 Start reading the documentation [here](index.md).
 
+A [ROADMAP](ROADMAP.md) is also maintained to show the current
+development status. 
+
+We try to keep it updated but take a look on each repo for 
+issues in case some of them are not yet listed. This process is
+not yet automated.
+
 ## License
 
 Copyright © 20015-2018 vtalks.net authors.
