@@ -9,7 +9,7 @@ ROADMAP
 ------------------
 
 
-0.4.0 (unreleased)
+0.4.0 (2018-02-07)
 ------------------
 - [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
 - [x] vtalks/web : [Apply unique_together = ('user', 'talk') on talk_likes](https://github.com/vtalks/vtalks.net/issues/76)
@@ -83,4 +83,5 @@ The idea is finished only when all of its issues are closed.
 The current ideas are:
 
 - Talks should have an optional link to their slides.
-- Speaker model
+- Speaker model.
+
