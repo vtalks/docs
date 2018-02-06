@@ -12,13 +12,9 @@ ROADMAP
 0.4.0 (unreleased)
 ------------------
 - [x] vtalks/web : [Content syndication](https://github.com/vtalks/vtalks.net/issues/48)
-- [ ] vtalks/web : [Use environment variables to configure the database](https://github.com/vtalks/docs/issues/2)
-- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
-- [x] vtalks/twitter-worker : Content syndication Twitter.
-- [ ] vtalks/facebook-worker : Content syndication Facebook.
-- [ ] vtalks/linkedin-worker : Content syndication LinkedIn.
-- [ ] vtalks/updater-worker : Content syndication LinkedIn.
-- [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
+- [ ] vtalks/twitter-worker : [Add tags on the twitter content](https://github.com/vtalks/twitter_worker/issues/1)
+- [ ] vtalks/web : [Create a sitemap.xml for vtalks.net](https://github.com/vtalks/vtalks.net/issues/58)
+
 
 0.3.0 (2018-01-29)
 ------------------
@@ -64,8 +60,28 @@ ROADMAP
 
 
 ## Backlog
-- [ ] Periodically update outdated videos.
-- [ ] Add Speaker model.
-- [ ] API CRUD support for Speaker model.
-- [ ] Add Conference/Event model.
-- [ ] API CRUD support for Conference/Event model.
+- [ ] vtalks/web : [Get related talks from the same event edition.](https://github.com/vtalks/vtalks.net/issues/75)
+- [ ] vtalks/web : [Get related talks from the same event event.](https://github.com/vtalks/vtalks.net/issues/74)
+- [ ] vtalks/web : [Can fontawesomeicons have an alt property for SEO?](https://github.com/vtalks/vtalks.net/issues/71)
+- [ ] vtalks/web : [Show user avatar on navbar.](https://github.com/vtalks/vtalks.net/issues/70)
+- [ ] vtalks/web : [Do we need image sitemaps?](https://github.com/vtalks/vtalks.net/issues/69)
+- [ ] vtalks/web : [SEO Tips (django-seo app)](https://github.com/vtalks/vtalks.net/issues/66)
+- [ ] vtalks/web : [Create robots.txt file](https://github.com/vtalks/vtalks.net/issues/65)
+- [ ] vtalks/web : [Compress js and css on production (django-compressor app)](https://github.com/vtalks/vtalks.net/issues/64)
+- [ ] vtalks/web : [Use django.template.loaders.cached.Loader on production](https://github.com/vtalks/vtalks.net/issues/63)
+- [ ] vtalks/web : [New linkedin url and page/company](https://github.com/vtalks/vtalks.net/issues/61)
+- [ ] vtalks/web : [Create a client test to check a random talk detailed view ( anon users )](https://github.com/vtalks/vtalks.net/issues/60)
+- [ ] vtalks/web : [Create a client test to check home ( anon users )](https://github.com/vtalks/vtalks.net/issues/59)
+- [ ] vtalks/web : [New facebook page url](https://github.com/vtalks/vtalks.net/issues/56)
+- [ ] vtalks/web : [Better template contact form](https://github.com/vtalks/vtalks.net/issues/55)
+- [ ] vtalks/web : [Send email contact form with mailgun](https://github.com/vtalks/vtalks.net/issues/44)
+
+- [ ] vtalks/deploy : [Use environment variables to configure the database](https://github.com/vtalks/deploy/issues/2)
+
+- [ ] vtalks/docs : [Document virtualenv configuration on development](https://github.com/vtalks/docs/issues/3)
+
+- [ ] vtalks/facebook-worker : [Post a random talk on Facebook every 6 hours.](https://github.com/vtalks/facebook_worker/issues/1)
+
+- [ ] vtalks/linkedin-worker : [Post a random talk on LinkedIn every 6 hours.](https://github.com/vtalks/linkedin_worker/issues/1)
+
+- [ ] vtalks/updater-worker : [Update a talk periodically.](https://github.com/vtalks/updater_worker/issues/1)
