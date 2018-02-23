@@ -7,7 +7,8 @@ ROADMAP
 
 0.5.0 (unreleased)
 ------------------
-
+- [ ] vtalks/web : [talks.models.Playlist to its own application](https://github.com/vtalks/vtalks.net/issues/92)
+- [ ] vtalks/web : [talks.models.Channel to its own application](https://github.com/vtalks/vtalks.net/issues/91)
 - [x] vtalks/web : [Create a 500 template](https://github.com/vtalks/vtalks.net/issues/86)
 - [x] vtalks/web : [Create a 404 template](https://github.com/vtalks/vtalks.net/issues/85)
 
