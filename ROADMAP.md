@@ -8,6 +8,9 @@ ROADMAP
 0.5.0 (unreleased)
 ------------------
 
+- [x] vtalks/web : [Create a 500 template](https://github.com/vtalks/vtalks.net/issues/86)
+- [x] vtalks/web : [Create a 404 template](https://github.com/vtalks/vtalks.net/issues/85)
+
 
 0.4.0 (2018-02-07)
 ------------------
