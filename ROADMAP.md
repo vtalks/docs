@@ -11,7 +11,7 @@ ROADMAP
 - [x] vtalks/web : [Do we need image sitemaps? question](https://github.com/vtalks/vtalks.net/issues/69)
 - [x] vtalks/web : [Create a client test to check a random talk detailed view anon users](https://github.com/vtalks/vtalks.net/issues/60)
 - [x] vtalks/web : [Create a client test to check home anon users](https://github.com/vtalks/vtalks.net/issues/59)
-- [ ] vtalks/web : [talks.models.Playlist to its own application](https://github.com/vtalks/vtalks.net/issues/92)
+- [x] vtalks/web : [talks.models.Playlist to its own application](https://github.com/vtalks/vtalks.net/issues/92)
 - [x] vtalks/web : [talks.models.Channel to its own application](https://github.com/vtalks/vtalks.net/issues/91)
 - [x] vtalks/web : [Create a 500 template](https://github.com/vtalks/vtalks.net/issues/86)
 - [x] vtalks/web : [Create a 404 template](https://github.com/vtalks/vtalks.net/issues/85)
