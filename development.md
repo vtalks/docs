@@ -17,6 +17,10 @@ cd vtalks
 git clone git@github.com:vtalks/branding.git
 git clone git@github.com:vtalks/deploy.git
 git clone git@github.com:vtalks/docs.git
+git clone git@github.com:vtalks/facebook_worker.git
+git clone git@github.com:vtalks/linkedin_worker.git
+git clone git@github.com:vtalks/twitter_worker.git
+git clone git@github.com:vtalks/updater_worker.git
 git clone git@github.com:vtalks/vtalks.net.git
 ```
 

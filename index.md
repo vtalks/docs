@@ -38,5 +38,3 @@ docker-machine create \
     --generic-ssh-key ~/.ssh/id_rsa.pub \
     machine_name
 ```
-
-### 
