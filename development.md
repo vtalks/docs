@@ -6,6 +6,7 @@ You will need to have installed the following dependencies:
 
 * Docker & Docker Compose
 * Python 3+
+* VirtualEnv
 
 ## Get the source code
 
@@ -26,6 +27,18 @@ git clone git@github.com:vtalks/vtalks.net.git
 
 In this guide, if it is not specified the working directory will be the 
 `vtalks` directory created where all other repos reside.
+
+## Create a virtualenv
+
+vtalks isolates all its development (and execution) to pytthon3 using
+virtualenv.
+
+So you need to create a new virtualenv environment. Inside the folder
+`vtalks` just execute:
+
+```
+$ virtualenv .venv
+```
 
 ## Setup the environment
 
