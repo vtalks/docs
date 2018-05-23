@@ -6,6 +6,7 @@ You will need to have installed the following dependencies:
 
 * Docker & Docker Compose
 * Python 3+
+* VirtualEnv
 
 ## Get the source code
 
@@ -17,11 +18,27 @@ cd vtalks
 git clone git@github.com:vtalks/branding.git
 git clone git@github.com:vtalks/deploy.git
 git clone git@github.com:vtalks/docs.git
+git clone git@github.com:vtalks/facebook_worker.git
+git clone git@github.com:vtalks/linkedin_worker.git
+git clone git@github.com:vtalks/twitter_worker.git
+git clone git@github.com:vtalks/updater_worker.git
 git clone git@github.com:vtalks/vtalks.net.git
 ```
 
 In this guide, if it is not specified the working directory will be the 
 `vtalks` directory created where all other repos reside.
+
+## Create a virtualenv
+
+vtalks isolates all its development (and execution) to pytthon3 using
+virtualenv.
+
+So you need to create a new virtualenv environment. Inside the folder
+`vtalks` just execute:
+
+```
+$ virtualenv .venv
+```
 
 ## Setup the environment
 
@@ -62,11 +79,6 @@ To export the database execute:
 ```bash
 compose exec postgres /dumpdb.sh
 ```
-
-##### Configuration & Environment variables
-
-> [ISSUE-deploy/2](https://github.com/vtalks/deploy/issues/2):
-> Environment variables to configure the database.
 
 ### Web
 
