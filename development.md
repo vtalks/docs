@@ -80,11 +80,6 @@ To export the database execute:
 compose exec postgres /dumpdb.sh
 ```
 
-##### Configuration & Environment variables
-
-> [ISSUE-deploy/2](https://github.com/vtalks/deploy/issues/2):
-> Environment variables to configure the database.
-
 ### Web
 
 Inside `deploy` folder repository, build the container image with:
