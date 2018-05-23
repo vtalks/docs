@@ -7,4 +7,5 @@ Welcome to vtalks documentation!
 
 ## Extras
 
+* [Backup](backup.md)
 * [Common Recipes](common_recipes.md)
